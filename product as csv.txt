@@ -1,0 +1,33 @@
+Product / Metric	Formula	Explanation
+ NNM - Net 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="Net")) 	 Net NNM. 
+ NNM - Sub/Txf In 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="Sub/Txf In")) 	 NNM inflows. 
+ NNM - Red/Txf Out 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="Red/Txf Out")) 	 NNM outflows. 
+ NNM - CASA 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="CASA")) 	 CASA within NNM (if applicable). 
+ NNM - TD 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="TD")) 	 TD within NNM. 
+ NNM - Others 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="Others")) 	 Other deposit types within NNM. 
+ NNM - Priority 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="Priority")) 	 Priority within NNM. 
+ NNM - Premium 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="Premium")) 	 Premium within NNM. 
+ NNM - Intl 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="Intl")) 	 Intl within NNM. 
+ NNM - - (dash) 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NNM")*($H$93:$H$321="-")) 	 Dash H for NNM. 
+ NTB - Total 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="Total")) 	 Total NTB. 
+ NTB - Net 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="Net")) 	 Net NTB. 
+ NTB - Sub/Txf In 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="Sub/Txf In")) 	 NTB inflows. 
+ NTB - Red/Txf Out 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="Red/Txf Out")) 	 NTB outflows. 
+ NTB - CASA 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="CASA")) 	 CASA for NTB. 
+ NTB - TD 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="TD")) 	 TD for NTB. 
+ NTB - Others 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="Others")) 	 Others for NTB. 
+ NTB - Priority 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="Priority")) 	 Priority for NTB. 
+ NTB - Premium 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="Premium")) 	 Premium for NTB. 
+ NTB - Intl 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="Intl")) 	 Intl for NTB. 
+ NTB - - (dash) 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB")*($H$93:$H$321="-")) 	 Dash H for NTB. 
+ NTB-Intl - Total 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="Total")) 	 Total NTB-Intl. 
+ NTB-Intl - Net 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="Net")) 	 Net NTB-Intl. 
+ NTB-Intl - Sub/Txf In 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="Sub/Txf In")) 	 NTB-Intl inflows. 
+ NTB-Intl - Red/Txf Out 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="Red/Txf Out")) 	 NTB-Intl outflows. 
+ NTB-Intl - CASA 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="CASA")) 	 CASA for NTB-Intl. 
+ NTB-Intl - TD 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="TD")) 	 TD for NTB-Intl. 
+ NTB-Intl - Others 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="Others")) 	 Others for NTB-Intl. 
+ NTB-Intl - Priority 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="Priority")) 	 Priority for NTB-Intl. 
+ NTB-Intl - Premium 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="Premium")) 	 Premium for NTB-Intl. 
+ NTB-Intl - Intl 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="Intl")) 	 Intl for NTB-Intl. 
+ NTB-Intl - - (dash) 	 =SUMPRODUCT(IFERROR(FJ$93:FJ$321,0),($G$93:$G$321="NTB-Intl")*($H$93:$H$321="-")) 	 Dash H for NTB-Intl. 
